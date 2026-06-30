@@ -1,0 +1,27 @@
+
+# ─────────────────────────────────────────────
+#  VISIO·ID — Fichier de dépendances Python
+#  Installe tout avec : pip install -r requirements.txt
+# ─────────────────────────────────────────────
+
+# Interface graphique moderne (thème sombre natif)
+customtkinter==5.2.2
+
+# Pillow : affichage et traitement d'images dans l'UI
+Pillow==10.3.0
+
+# OpenCV : capture webcam, flux IP, lecture vidéo/photo
+opencv-python==4.9.0.80
+
+# face_recognition : détection + encodage des visages (basé sur dlib)
+# ⚠️  dlib doit être installé en premier (voir README.md)
+face_recognition==1.3.0
+
+# Numpy : manipulation des encodages (tableaux numériques)
+numpy==1.26.4
+
+# CTkMessagebox : boîtes de dialogue modernes pour CustomTkinter
+CTkMessagebox==2.7
+
+# Requests : utile si on veut tester la connexion IP Webcam
+requests==2.31.0
